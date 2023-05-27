@@ -116,11 +116,12 @@ img {
     height: auto;
 }
 
-.group-tag {
+.group-tag-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
 }
+
 
 .you-should-make {
     margin-top: 75;
