@@ -55,10 +55,12 @@ var mainPage = document.querySelector('.main-content')
 //left box & contents
 var leftBox = document.querySelector('.list')
 var letsCookButton = document.querySelector('.lets-cook')
+var radioButtonSelected = document.querySelector('input[name="radio-bts"]:checked')
 //right box & contents
 var rightBox = document.querySelector('.image')
 var cookPotImage = document.querySelector('.cook-pot')
 var rightBoxAfterClick = document.querySelector('.group-tag-right')
+var insertDishHere = document.querySelector('.desc-of-dish')
 var clearButton = document.querySelector('.clear-button')
 //buttons
 var addRecipeB = document.querySelector('.ar')
@@ -69,6 +71,7 @@ var letsCookB = document.querySelector('.lets-cook')
 letsCookButton.addEventListener('click', function(event) {
     event.preventDefault()
     showHide(rightBoxAfterClick, cookPotImage)
+    rbSelectedValue()
 })
 
 clearButton.addEventListener('click', function() {
@@ -80,4 +83,17 @@ clearButton.addEventListener('click', function() {
 function showHide(show, hide) {
     show.classList.remove('hidden')
     hide.classList.add('hidden')
+}
+
+function rbSelectedValue() {
+    var rb1 = document.getElementById("rb1")
+    var rb2 = document.getElementById("rb2")
+    var rb3 = document.getElementById("rb3")
+    var rb4 = document.getElementById("rb4")
+
+    if(rb1.checked==true) {
+        insertDishHere.innerText = "hey there sauce"
+        showHide(rightBoxAfterClick, cookPotImage)
+    }
+        
 }
