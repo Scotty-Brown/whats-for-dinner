@@ -54,9 +54,24 @@ var Desserts = [
 var mainPage = document.querySelector('.main-content')
 //left box & contents
 var leftBox = document.querySelector('.list')
+var letsCookButton = document.querySelector('.lets-cook')
 //right box & contents
 var rightBox = document.querySelector('.image')
-var cookPotImage = document.querySelector('cook-pot')
+var cookPotImage = document.querySelector('.cook-pot')
+var rightBoxAfterClick = document.querySelector('.group-tag')
 //buttons
 var addRecipeB = document.querySelector('.ar')
 var letsCookB = document.querySelector('.lets-cook')
+
+// EVENT LISTENERS
+
+letsCookButton.addEventListener('click', function(event) {
+    showHide(rightBoxAfterClick, cookPotImage)
+})
+
+// FUNKY FUNCTIONS
+
+function showHide(show, hide) {
+    show.classList.remove('hidden')
+    hide.classList.add('hidden')
+}
