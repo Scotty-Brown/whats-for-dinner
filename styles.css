@@ -23,13 +23,17 @@ header {
     margin-bottom: -100px
 }
 
+/* .hidden {
+    display: none;
+} */
+
 .main-content {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     margin-top: 10%;
 }
-.image {
+.cookpot {
     background-color: rgba(225, 225, 225, .9);
     width: 500px;
     height: auto;
@@ -38,7 +42,7 @@ header {
     align-items: center;
 }
 
-.ar {
+.add-recipe-b {
     display: block;
     font-size: 1em;
     margin-block-start: 0.67em;
@@ -119,8 +123,16 @@ label {
     border-radius: 8px;
 }
 
-/* .required::after {
-    content: "*";
-    color: #ee5253;
-    size: x;
+/* may not need .diner-right any more */
+/* .dinner-right {
+    background-color: rgba(225, 225, 225, .9);
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } */
+
+.hidden {
+    display: none;
+}
