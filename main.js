@@ -105,5 +105,8 @@ function rbSelectedValue() {
     } else if(rb3.checked==true) {
         showHide(rightBoxAfterClick, cookPotImage)
         insertDishHere.innerText = randomFood(Desserts)
-    }    
+    } else if(rb4.checked==true) {
+        showHide(rightBoxAfterClick, cookPotImage)
+        insertDishHere.innerText = `${randomFood(Mains)} with a side of ${randomFood(Sides)} and ${randomFood(Desserts)} for dessert!`
+    }  
 }
