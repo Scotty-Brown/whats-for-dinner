@@ -49,6 +49,7 @@ var Desserts = [
     "Croissants",
     "Eclairs"
 ]
+
 //pages
 var mainPage = document.querySelector('.main-content')
 //left box & contents

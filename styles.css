@@ -96,7 +96,10 @@ label {
     width: 500px;
     height: auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -113,7 +116,37 @@ img {
     height: auto;
 }
 
+.group-styling {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
+.you-should-make {
+    margin-top: 75;
+    font-style: italic;
+}
+
+.desc-of-dish {
+    margin-right: 100;
+    margin-left: 100;
+    margin-top: 50;
+    margin-bottom: 100;
+}
+
+.clear-button {
+    margin-left: 350;
+    color: white;
+    font-family: sans-serif;
+    background-color: #95a5a6;
+    font-size: 15;
+    padding-top: 10;
+    padding-right: 15;
+    padding-left: 15;
+    padding-bottom: 10;
+    border: none;
+    border-radius: 8px;
+}
 
 
 
@@ -123,6 +156,48 @@ img {
 
 
 
+
+ /* possible styling for the entire 
+         <h3 class="name-of-dish">You should make:</h3>
+        <h4 class="desc-of-dish">INSERT DISH HERE</h4>
+        <button class="clear-button">CLEAR</button>
+        
+will need to create something that houses all of those
+ellements together and then this would be their styling
+
+.groupstyling {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.you-should-make {
+    margin-top: 75;
+    font-style: italic;
+}
+
+.desc-of-dish {
+    margin-right: 100;
+    margin-left: 100;
+    margin-top: 50;
+    margin-bottom: 100;
+}
+
+.clear-button {
+    margin-left: 350;
+    color: white;
+    font-family: sans-serif;
+    background-color: #95a5a6;
+    font-size: 15;
+    padding-top: 10;
+    padding-right: 15;
+    padding-left: 15;
+    padding-bottom: 10;
+    border: none;
+    border-radius: 8px;
+}
+
+        */
 
 
 
