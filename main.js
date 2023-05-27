@@ -58,7 +58,8 @@ var letsCookButton = document.querySelector('.lets-cook')
 //right box & contents
 var rightBox = document.querySelector('.image')
 var cookPotImage = document.querySelector('.cook-pot')
-var rightBoxAfterClick = document.querySelector('.group-tag')
+var rightBoxAfterClick = document.querySelector('.group-tag-right')
+var clearButton = document.querySelector('.clear-button')
 //buttons
 var addRecipeB = document.querySelector('.ar')
 var letsCookB = document.querySelector('.lets-cook')
@@ -66,7 +67,12 @@ var letsCookB = document.querySelector('.lets-cook')
 // EVENT LISTENERS
 
 letsCookButton.addEventListener('click', function(event) {
+    event.preventDefault()
     showHide(rightBoxAfterClick, cookPotImage)
+})
+
+clearButton.addEventListener('click', function() {
+    showHide(cookPotImage, rightBoxAfterClick)
 })
 
 // FUNKY FUNCTIONS
