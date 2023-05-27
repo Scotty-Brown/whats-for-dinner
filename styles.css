@@ -60,7 +60,7 @@ h1 {
     justify-content: space-evenly;
     margin-top: 10%;
 }
-.dinner-left {
+.left-box {
     background-color: rgba(225, 225, 225, .9);
     width: 500;
     height: 400;
@@ -91,7 +91,7 @@ label {
     margin-top: -5;
     font-size: 25;
 }
-.cookpot {
+.right-box {
     background-color: rgba(225, 225, 225, .9);
     width: 500px;
     height: auto;
