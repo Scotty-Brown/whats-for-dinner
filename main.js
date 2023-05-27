@@ -85,6 +85,11 @@ function showHide(show, hide) {
     hide.classList.add('hidden')
 }
 
+function randomFood (array) {
+    var indexPosition =  Math.floor(Math.random() * array.length)
+    return array[indexPosition]
+}
+
 function rbSelectedValue() {
     var rb1 = document.getElementById("rb1")
     var rb2 = document.getElementById("rb2")
@@ -92,8 +97,13 @@ function rbSelectedValue() {
     var rb4 = document.getElementById("rb4")
 
     if(rb1.checked==true) {
-        insertDishHere.innerText = "hey there sauce"
         showHide(rightBoxAfterClick, cookPotImage)
-    }
-        
+        insertDishHere.innerText = randomFood(Sides)
+    } else if(rb2.checked==true) {
+        showHide(rightBoxAfterClick, cookPotImage)
+        insertDishHere.innerText = randomFood(Mains)
+    } else if(rb3.checked==true) {
+        showHide(rightBoxAfterClick, cookPotImage)
+        insertDishHere.innerText = randomFood(Desserts)
+    }    
 }
