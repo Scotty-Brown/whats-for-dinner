@@ -120,21 +120,23 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
 .you-should-make {
     margin-top: 75;
     font-style: italic;
-    font-size: 30;
+    font-size: 25;
 }
 
 .desc-of-dish {
-    margin-right: 100;
-    margin-left: 100;
-    margin-top: 50;
-    margin-bottom: 100;
+    margin-right: 50;
+    margin-left: 50;
+    margin-top: 0;
+    margin-bottom: 50;
     font-size: 30;
+    overflow: visible;
 }
 
 .clear-button {
