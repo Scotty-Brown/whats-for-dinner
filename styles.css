@@ -5,6 +5,214 @@ teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
 red - #ee5253
-
 */
 
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("./assets/burger-friends.jpg");
+}
+
+header {
+    background-color: #0fb9b1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10;
+    margin-left: -10px;
+    margin-right: -8;
+    margin-bottom: -100px
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 35px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.add-recipe-b {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 25px;
+    padding: 10 20;
+    border-radius: 8px;
+    border: none
+}
+/* .hidden {
+    display: none;
+} */
+
+.main-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.left-box {
+    background-color: rgba(225, 225, 225, .9);
+    width: 500;
+    height: 400;
+}
+h2 {
+    display: block;
+    font-size: 35;
+    margin-block-start: 75px;
+    margin-block-end: 0.83em;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-bottom: -15;
+}
+h2::after {
+    content: "*";
+    color: #ee5253;
+    /* size: x; */
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 40;
+    padding-bottom: 10;
+}
+label {
+    margin-bottom: 15;
+    margin-top: -5;
+    font-size: 25;
+}
+.right-box {
+    background-color: rgba(225, 225, 225, .9);
+    width: 500px;
+    height: auto;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lets-cook {
+    margin-left: 50;
+    padding: 10px 50px;
+    background-color: #0fb9b1;
+    border: none;
+    border-radius: 8px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.group-tag-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.you-should-make {
+    margin-top: 75;
+    font-style: italic;
+    font-size: 25;
+}
+
+.desc-of-dish {
+    margin-right: 50;
+    margin-left: 50;
+    margin-top: 0;
+    margin-bottom: 50;
+    font-size: 30;
+    overflow: visible;
+}
+
+.clear-button {
+    margin-left: 375;
+    margin-bottom: 15;
+    color: white;
+    font-family: sans-serif;
+    background-color: #95a5a6;
+    font-size: 15;
+    padding-top: 10;
+    padding-right: 15;
+    padding-left: 15;
+    padding-bottom: 10;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+ /* possible styling for the entire 
+         <h3 class="name-of-dish">You should make:</h3>
+        <h4 class="desc-of-dish">INSERT DISH HERE</h4>
+        <button class="clear-button">CLEAR</button>
+        
+will need to create something that houses all of those
+ellements together and then this would be their styling
+
+.groupstyling {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.you-should-make {
+    margin-top: 75;
+    font-style: italic;
+}
+
+.desc-of-dish {
+    margin-right: 100;
+    margin-left: 100;
+    margin-top: 50;
+    margin-bottom: 100;
+}
+
+.clear-button {
+    margin-left: 350;
+    color: white;
+    font-family: sans-serif;
+    background-color: #95a5a6;
+    font-size: 15;
+    padding-top: 10;
+    padding-right: 15;
+    padding-left: 15;
+    padding-bottom: 10;
+    border: none;
+    border-radius: 8px;
+}
+
+        */
+
+
+
+/* may not need .diner-right any more */
+/* .dinner-right {
+    background-color: rgba(225, 225, 225, .9);
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
