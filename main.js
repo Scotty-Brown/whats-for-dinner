@@ -34,14 +34,13 @@ clearButton.addEventListener('click', function(event) {
 })
 
 addRecipeB.addEventListener('click', function() {
+    // location.reload(addRecipeForm)
     show(addRecipeForm)
 })
 
 addNew.addEventListener('click', function(event) {
     event.preventDefault
     dropDownSelection(event)
-    // hide(cookPotImage)
-    // hide(rightBoxAfterClick)
 })
 
 // FUNKY FUNCTIONS
@@ -63,6 +62,10 @@ function hide(hide) {
 function randomFood (array) {
     var indexPosition =  Math.floor(Math.random() * array.length)
     return array[indexPosition]
+}
+
+function clearForm() {
+
 }
 
 function rbSelectedValue() {
@@ -106,10 +109,10 @@ function rbSelectedValue() {
 function dropDownSelection (event) {
     var valueInput = document.getElementById("food-type-dd").value
     var userInput = document.getElementById('ar-actual').value
-
-    if(valueInput === "none") {
+    
+    if(valueInput === "none" || !userInput) {
         event.preventDefault()
-        alert('Please select a Recipe Type!')
+        alert('Please select a Recipe Type or add Recipe Name!')
     } else if (valueInput === "side") {
         event.preventDefault()
         Sides.push(userInput)
@@ -138,4 +141,5 @@ function dropDownSelection (event) {
         hide(addRecipeForm)
         hide(noneSelectedMes)
     }
+
 }

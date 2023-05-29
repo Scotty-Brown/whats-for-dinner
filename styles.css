@@ -183,6 +183,13 @@ h5 {
     font-size: 18;
 }
 
+h7 {
+    margin-left: 100;
+    font-size: 30;
+    font-weight: bolder;
+    font-style: italic;
+}
+
 label {
     margin-left: 30;
 }
@@ -193,6 +200,11 @@ label {
     background-color: #0fb9b1;
     border: none;
     border-radius: 8px;
+}
+.user-input-dish {
+    font-size: 25;
+    margin-right: 50;
+    margin-left: 50;
 }
 
 .hidden {
