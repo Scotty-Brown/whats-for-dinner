@@ -10,9 +10,10 @@ add a new dish recipe to the arrays of yummy goodness!
 2. Navigate to the directory where you would like this project to be stored.
 3. Run `git clone git@github.com:Scotty-Brown/whats-for-dinner.git`.
 4. Run `cd whats-for-dinner` to move into the project directory.
-5. Run `open index.html` in your terminal to launch the application in the web brownser.
+5. Run `open index.html` in your terminal to launch the application in the web brownser. 
 
 ### Preview of App:
+* This app is viewed best on a laptop screen where your browser fills up the screen (preferably manual fixing versus your browsers maximize feater) 
 <img width="1438" alt="Screen Shot 2023-05-28 at 8 57 08 PM" src="https://github.com/Scotty-Brown/whats-for-dinner/assets/130028791/11b2d474-8d9f-4381-a689-00e6090cb909">
 
 
