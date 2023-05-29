@@ -13,7 +13,7 @@ add a new dish recipe to the arrays of yummy goodness!
 5. Run `open index.html` in your terminal to launch the application in the web brownser. 
 
 ### Preview of App:
-* This app is viewed best on a laptop screen where your browser fills up the screen (preferably manual fixing versus your browsers maximize feature) 
+* This app is viewed best on a laptop screen where your browser fills up the screen (preferably manual fixing versus your browsers maximize feature).
 <img width="1438" alt="Screen Shot 2023-05-28 at 8 57 08 PM" src="https://github.com/Scotty-Brown/whats-for-dinner/assets/130028791/11b2d474-8d9f-4381-a689-00e6090cb909">
 
 
