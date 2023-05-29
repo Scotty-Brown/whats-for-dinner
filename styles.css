@@ -18,6 +18,8 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-image: url("./assets/burger-friends.jpg");
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header {
@@ -161,7 +163,7 @@ footer {
  display: flex;
  justify-content: space-between;
  align-items: center;
- margin-top: 165;
+ margin-top: 170;
  margin-left: -5px;
  margin-right: -8;
  margin-bottom: 0;
@@ -172,9 +174,17 @@ footer {
     width: 225px;
     height: 50px;
     margin-left: 10;
-    margin-top: 10;
+    margin-top: -10;
     margin-right: 25;
     font-size: 25;
+}
+
+label {
+    margin-left: 30;
+}
+
+.add {
+    font-size: 18;
 }
 
 .hidden {
