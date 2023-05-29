@@ -6,32 +6,32 @@
   <body>
     <header>
      <h1>What's for Dinner?</h1> 
-     <button class="add-recipe-b">ADD A RECIPE</button>
+     <button class="add-recipe-button">ADD A RECIPE</button>
     </header>
     <main class="main-content">
       <section class="left-box">
         <form>
           <h2 class="'required">What are you looking for? </h2>
-          <div class="list">
+          <div class="radio-list">
             <label><input id="rb1" type="radio" name="radio-bts" value="side"/>Side</label>
             <label><input id="rb2" type="radio" name="radio-bts" value="main dish"/>Main Dish</label>
             <label><input id="rb3" type="radio" name="radio-bts" value="dessert"/>Dessert</label>
             <label><input id="rb4" type="radio" name="radio-bts" value="entire meal"/>Entire Meal</label>
           </div>
-          <button class="lets-cook">LET'S COOK!</button>
+          <button class="lets-cook-button">LET'S COOK!</button>
         </form>
       </section>
       <section class="right-box">
         <img class="cook-pot" src="./assets/cookpot.svg"/>
           <form class="group-tag-right hidden">
-            <h3 class="you-should-make">You should make:</h3>
-            <p class="desc-of-dish">INSERT DISH HERE</p>
+            <h3 class="ysm-heading">You should make:</h3>
+            <p class="randomized-dish-display">INSERT DISH HERE</p>
             <button class="clear-button">CLEAR</button>
           </form>
           <form class="none-selected-message hidden">
             <h5>Please make a selection and press "LET'S COOK!" again!</h5>
           </form>
-          <form class="user-input-added hidden">
+          <form class="user-input-dish-form hidden">
             <h7>YUMMY.....</h7>
             <p class="user-input-dish">DISH HAS BEEN ADDED</p>
           </form>
@@ -49,7 +49,7 @@
         </select>
         <label for="add-recipe">Recipe Name:</label>
         <input type="text" name="add-recipe" id="ar-actual" placeholder="Enter Yummy Food">
-        <button class="add">ADD NEW!</button>
+        <button class="add-new-button">ADD NEW!</button>
       </form>
     </footer>
   </body>

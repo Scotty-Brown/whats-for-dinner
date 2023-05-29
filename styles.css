@@ -42,7 +42,7 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.add-recipe-b {
+.add-recipe-button {
     display: block;
     font-size: 1em;
     margin-block-start: 0.67em;
@@ -79,7 +79,7 @@ h2::after {
     content: "*";
     color: #ee5253;
 }
-.list {
+.radio-list {
     display: flex;
     flex-direction: column;
     padding: 40;
@@ -100,7 +100,7 @@ label {
     align-items: center;
 }
 
-.lets-cook {
+.lets-cook-button {
     margin-left: 50;
     padding: 10px 50px;
     background-color: #0fb9b1;
@@ -120,13 +120,13 @@ img {
     
 }
 
-.you-should-make {
+.ysm-heading {
     margin-top: 75;
     font-style: italic;
     font-size: 25;
 }
 
-.desc-of-dish {
+.randomized-dish-display {
     margin-right: 50;
     margin-left: 50;
     margin-top: 0;
@@ -186,7 +186,7 @@ label {
     margin-left: 30;
 }
 
-.add {
+.add-new-button {
     margin-left: 25;
     padding: 10px 25px;
     background-color: #0fb9b1;
