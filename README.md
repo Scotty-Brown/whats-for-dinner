@@ -1,51 +1,37 @@
-# What's for Dinner?
-
-## Overview
-
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.edu/projects/module-1/dinner.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # What's for Dinner? 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+We all have suffered from the agonizing proces of trying to decide what to make for dinner! Fear not, I built an app that 
+will give you random "Side", "Main" and "Dessert" dishes (no thinking required)! Additionally, the user will be able to 
+add a new dish recipe to be added to the randomizer!
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+1. Open you terminal.
+2. Navigate to the directory where you would like this project to be stored.
+3. Run `git clone git@github.com:Scotty-Brown/whats-for-dinner.git`.
+4. Run `cd whats-for-dinner` to move into the project directory.
+5. Run `open index.html` in your terminal to launch the application in the web brownser.
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+<img width="1438" alt="Screen Shot 2023-05-28 at 8 57 08 PM" src="https://github.com/Scotty-Brown/whats-for-dinner/assets/130028791/11b2d474-8d9f-4381-a689-00e6090cb909">
+
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+I am currently a student in my third week at Turing and this project took me 15 hours to complete.
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+https://github.com/Scotty-Brown
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+- Gain knowledge and experience building an app from scratch utilizing HTML, CSS and JavaScript.
+- Matching a provided comp using HTML and CSS.
+- Interacting with User Input Data.
+- Individualizing my programming skill set.
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+## Wins
+- A major win of mine was being able to capture which radio button was selected and then displaying the appropriate output.
+- Another huge win is gaining comfort and experience utilizing CSS for styling and HTML to organize my content.
+
+## Challenges
+- This was my first time writing my own HTML, so writing my first few lines of HTML were the most challenging. Once I started adding the bulk of the content I started to really understand the different tags and their purposes.
