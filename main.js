@@ -44,10 +44,14 @@ addNew.addEventListener('click', function(event) {
 
 // FUNKY FUNCTIONS
 
+function randomFood (array) {
+    var indexPosition =  Math.floor(Math.random() * array.length)
+    return array[indexPosition]
+}
+
 function showHideContent(show, hide) {
     show.classList.remove('hidden')
     hide.classList.add('hidden')
-    
 }
 
 function showContent(show) {
@@ -56,15 +60,6 @@ function showContent(show) {
 
 function hideContent(hide) {
     hide.classList.add('hidden')
-}
-
-function randomFood (array) {
-    var indexPosition =  Math.floor(Math.random() * array.length)
-    return array[indexPosition]
-}
-
-function clearForm() {
-
 }
 
 function generateRandomDish() {
