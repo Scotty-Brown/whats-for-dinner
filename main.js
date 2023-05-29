@@ -1,23 +1,23 @@
 //pages
 var mainPage = document.querySelector('.main-content')
 //left box & contents
-var leftBox = document.querySelector('.list')
+var leftBox = document.querySelector('.radio-list')
 var radioButtonSelected = document.querySelector('input[name="radio-bts"]:checked')
 //right box & contents
 var rightBox = document.querySelector('.image')
 var cookPotImage = document.querySelector('.cook-pot')
 var rightBoxAfterClick = document.querySelector('.group-tag-right')
-var insertDishHere = document.querySelector('.desc-of-dish')
+var insertDishHere = document.querySelector('.randomized-dish-display')
 var noneSelectedMes = document.querySelector('.none-selected-message')
 var addedRecipeNotice = document.querySelector('.user-input-dish')
-var userInputAddPage = document.querySelector('.user-input-added')
+var userInputAddPage = document.querySelector('.user-input-dish-form')
 //add new recipe form
 var addRecipeForm = document.querySelector('.add-recipe-display')
 //buttons
-var letsCookButton = document.querySelector('.lets-cook')
-var addRecipeButton = document.querySelector('.add-recipe-b')
+var letsCookButton = document.querySelector('.lets-cook-button')
+var addRecipeButton = document.querySelector('.add-recipe-button')
 var clearButton = document.querySelector('.clear-button')
-var addNew = document.querySelector('.add')
+var addNewButton = document.querySelector('.add-new-button')
 
 // EVENT LISTENERS
 
@@ -36,7 +36,7 @@ addRecipeButton.addEventListener('click', function() {
     showContent(addRecipeForm)
 })
 
-addNew.addEventListener('click', function(event) {
+addNewButton.addEventListener('click', function(event) {
     event.preventDefault
     addARecipe(event)
 })
