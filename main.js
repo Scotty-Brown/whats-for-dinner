@@ -2,7 +2,6 @@
 var mainPage = document.querySelector('.main-content')
 //left box & contents
 var leftBox = document.querySelector('.list')
-var letsCookButton = document.querySelector('.lets-cook')
 var radioButtonSelected = document.querySelector('input[name="radio-bts"]:checked')
 //right box & contents
 var rightBox = document.querySelector('.image')
@@ -15,8 +14,8 @@ var userInputAddPage = document.querySelector('.user-input-added')
 //add new recipe form
 var addRecipeForm = document.querySelector('.add-recipe-display')
 //buttons
-var addRecipeB = document.querySelector('.add-recipe-b')
-var letsCookB = document.querySelector('.lets-cook')
+var letsCookButton = document.querySelector('.lets-cook')
+var addRecipeButton = document.querySelector('.add-recipe-b')
 var clearButton = document.querySelector('.clear-button')
 var addNew = document.querySelector('.add')
 
@@ -33,7 +32,7 @@ clearButton.addEventListener('click', function(event) {
     showHideContent(cookPotImage, rightBoxAfterClick)
 })
 
-addRecipeB.addEventListener('click', function() {
+addRecipeButton.addEventListener('click', function() {
     showContent(addRecipeForm)
 })
 
