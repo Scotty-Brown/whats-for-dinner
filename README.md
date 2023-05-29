@@ -1,12 +1,12 @@
 # What's for Dinner? 
 
 ### Abstract:
-We all have suffered from the agonizing proces of trying to decide what to make for dinner! Fear not, I built an app that 
-will give you random "Side", "Main" and "Dessert" dishes (no thinking required)! Additionally, the user will be able to 
-add a new dish recipe to be added to the randomizer!
+We all have suffered from the agonizing process of trying to decide what to make for dinner! Fear not, I built an app that 
+will give you random "Side", "Main", "Dessert" and "Entire Meal" dishes (no thinking required)! Additionally, the user will be able to 
+add a new dish recipe to the arrays of yummy goodness!
 
 ### Installation Instructions:
-1. Open you terminal.
+1. Open your terminal.
 2. Navigate to the directory where you would like this project to be stored.
 3. Run `git clone git@github.com:Scotty-Brown/whats-for-dinner.git`.
 4. Run `cd whats-for-dinner` to move into the project directory.
@@ -30,7 +30,7 @@ https://github.com/Scotty-Brown
 
 ### Wins + Challenges:
 ## Wins
-- A major win of mine was being able to capture which radio button was selected and then displaying the appropriate output.
+- A major win of mine was being able to capture which radio button was selected and then using the associated return value.
 - Another huge win is gaining comfort and experience utilizing CSS for styling and HTML to organize my content.
 
 ## Challenges
