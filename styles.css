@@ -179,12 +179,20 @@ footer {
     font-size: 25;
 }
 
+h5 {
+    font-size: 18;
+}
+
 label {
     margin-left: 30;
 }
 
 .add {
-    font-size: 18;
+    margin-left: 25;
+    padding: 10px 25px;
+    background-color: #0fb9b1;
+    border: none;
+    border-radius: 8px;
 }
 
 .hidden {
